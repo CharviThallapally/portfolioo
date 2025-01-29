@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="Portfolio of Charvi Thallapally, Frontend Developer. Showcasing projects in web development, WordPress, and UI/UX design.">
+        <meta name="keywords" content="Charvi Thallapally, frontend developer, web development, portfolio, HTML, CSS, JavaScript, UI/UX design">
+
+        <title>Chaarvi Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/e4281c35ad.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Certifications">Certifications</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <br>
+                <br>
+                <br>
+                <p> Frontend Developer </p>
+                <h1>Hi, I'm <span>Charvi Thallapally </span> <br> from Hyderabad.</h1>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- --------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/3.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a Front-end developer, my mission is to make the web a more enjoyable place, one pixel at a time. I’m fascinated by how design and functionality come together, and I love using HTML, CSS, and JavaScript to create seamless user experiences. Whether it’s tweaking a design until it’s perfect or optimizing code for speed, I’m always striving to improve and learn new things.Let’s create something amazing together—because the web deserves it!</p>
+                    <div class="tab-titles">
+                     <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                     <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                     <p class="tab-links" onclick="opentab('Education')">Education</p>   
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>HTML</span><br>Structure content with clean, semantic HTML to create accessible and well-organized web pages that provide a strong foundation for any project.</li>
+                            <li><span>CSS</span><br>Style web pages with precision using CSS to craft visually appealing, responsive designs that adapt beautifully to all screen sizes and devices</li>
+                            <li><span>JavaScipt</span><br>Transform static web pages into interactive, dynamic user experiences with creative and efficient JavaScript solutions.</li>
+                            <li><span>WordPress</span><br>Specialize in crafting tailored WordPress sites that are not only functional and scalable but also easy for clients to manage on their own.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2024-current</span><br>Internship in company</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023-2026</span><br>B-Tech Information Tehnology,<br>Vardhaman College Of Engineering,<br>Hyderabad,TS</li>
+                            <li><span>2021-2022</span><br>+2 Education,<br>Sri Krishna Reddy Chaithanya,<br>Vijaywada,AP</li>
+                            <li><span>2020</span><br>SSC,<br>ViswaBharathi English Medium High School,<br>Gudivada,AP</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------projects------------ -->
+     <div id="Projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="Projects-list">
+                <div>
+                    
+                    <h2>Weatherapp</h2>
+                    <p>a web application that provides real-time weather information for any city around the world.</p>
+                    <h3><a href="https://github.com/CharviThallapally/weatherapp-php-css-js-MySQL-" target="_blank">learn more</a></h3>
+                </div>
+                <div>
+                    <h2>Virtualpetrock</h2>
+                    <p>A simple and interactive Virtual Pet Rock game built with HTML, CSS, and JavaScript. Take care of your virtual pet rock by feeding it, checking its health, and renaming it!</p>
+                    <h3><a href="https://github.com/charvithallapally/VirtualPet" target="_blank">learn more</a></h3>
+                </div>
+                <div>
+                    
+                    <h2>ChatBot</h2>
+                    <p>a simple chatbot application developed using Python. The chatbot can respond to user queries, provide information, and engage in basic conversations.</p>
+                    <h3><a href="https://github.com/CharviThallapally/chatbot" target="_blank">learn more</a></h3>
+                </div>
+            </div>
+        </div>
+     </div>
+     <br>
+     <br>
+     <!-----------Portfoilio----------->
+     <div id="Certifications">
+        <div class="container">
+            <h1 class="sub-title">Certifications</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/ww.jpg">
+                    <div class="layer">
+                        <h1>IIRS Workshop on Remote Sensing Applications</h1>
+            <p>Issued by IIRS on Jan 10, 2025</p>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ww1.jpg">
+                    <div class="layer">
+                        <h1>Great Learning UI Certification</h1>
+                        <p>Issued by Great Learning</p>
+                       
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ww2.jpg">
+                    <div class="layer">
+                        <h1>Build a Full Website using WordPress</h1>
+                        <p>Issued by Coursera (Coursera Project Network) on Jan 23, 2025</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+     </div>
+     <!-------contact------->
+     <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <br>
+                    <br>
+                    <p><i class="fa-regular fa-paper-plane"></i>charviiii2004@gmail.com</p>
+                    <br>
+                    <br>
+                    <div class="social-icons">
+                        <a href="https://in.pinterest.com/charvii0/"><i class="fa-brands fa-pinterest"></i></a>
+                        <a href="https://www.linkedin.com/in/charvi-thallapally-079836263/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/CharviThallapally"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="E-mail" name="E-mail" placeholder="Your E-mail" required>
+                        <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @Chaarvi. Made with <i class="fa-solid fa-heart"></i> by Chaarvi.</p>
+        </div>
+     </div>
+     <script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+    
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    
+        var sidemeu = document.getElementById("sidemenu");
+        var closeButton = document.querySelector('.fa-xmark');
+    
+        function openmenu() {
+            sidemeu.style.right = "0";
+            closeButton.classList.add('show-close'); // Show the close button
+        }
+    
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+            closeButton.classList.remove('show-close'); // Hide the close button
+        }
+    </script>
+    
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwjo3vYf8_k5qXgkURFKX6McnhdHhn-rJHLzmfL03PQ7kCrV9H_782Ipyj_XKlixD4K/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+    </html>
